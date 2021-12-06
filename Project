@@ -53,3 +53,20 @@ void HeightOfABuilding()
 
     cout << "Building height: " << height << endl;
 }
+
+void PlanetDistances()
+{
+    int number;
+
+    cout << "Select a Planet: " << endl;
+    cout << "1.Mercury" << endl;
+    cout << "2.Venus" << endl;
+    cout << "3.Earth" << endl;
+    cout << "4.Mars" << endl;
+    cout << "5.Jupiter" << endl;
+    cout << "6.Saturn" << endl;
+    cout << "7.Uranus" << endl;
+    cout << "8.Neptune" << endl;
+
+
+    cin >> number;
