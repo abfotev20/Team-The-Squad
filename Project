@@ -70,7 +70,7 @@ void PlanetDistances()
 
 
     cin >> number;
-switch (number)
+    switch (number)
     {
     case 1:
         cout << "Distance from the Sun to Mercury is 55 million km " << endl;
@@ -97,4 +97,29 @@ switch (number)
         cout << "Distance from the Sun to Neptune is 4530 million km " << endl;
         break;
     }
+}
+
+void UnitsConvertor()
+{
+    int days, hours, minutes, weeks, seconds;
+
+    cout << "Enter a number of days: ";
+
+    cin >> days;
+
+    cout << "Enter a number of hours: ";
+
+    cin >> hours;
+
+    cout << "Enter a number of minutes: ";
+
+    cin >> minutes;
+
+    seconds = (days * 86400) + (hours * 3600) + (minutes * 60);
+
+    weeks = seconds / 604800;
+
+    cout << "Equal to " << seconds << " seconds" << endl;
+
+    cout << "Equal to " << weeks << " weeks" << endl;
 }
