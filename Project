@@ -21,3 +21,12 @@ void TreeHeight()
     cout << "Your Shadow Length: " << endl;
     double yourShadow;
     cin >> yourShadow;
+    
+    cout << "Tree Shadow Length: " << endl;
+    double treeShadow;
+    cin >> treeShadow;
+
+    double treeHeight = (yourHeight * treeShadow) / yourShadow; //Calculating Tree Height//
+
+    cout << "The tree height is: " << treeHeight << endl;
+}
