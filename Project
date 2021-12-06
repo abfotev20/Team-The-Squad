@@ -4,6 +4,9 @@
 
 using namespace std;
 
+
+
+
 void PrintMenu()
 {
     cout << "1.Tree height" << endl;
@@ -14,16 +17,26 @@ void PrintMenu()
 
 void TreeHeight()
 {
+
+
     cout << "Your Height: " << endl;
+    
     double yourHeight;
+    
     cin >> yourHeight;
+    
+    
 
     cout << "Your Shadow Length: " << endl;
+    
     double yourShadow;
+    
     cin >> yourShadow;
     
     cout << "Tree Shadow Length: " << endl;
+    
     double treeShadow;
+    
     cin >> treeShadow;
 
     double treeHeight = (yourHeight * treeShadow) / yourShadow; //Calculating Tree Height//
@@ -59,40 +72,56 @@ void PlanetDistances()
     int number;
 
     cout << "Select a Planet: " << endl;
+    
     cout << "1.Mercury" << endl;
+    
     cout << "2.Venus" << endl;
+    
     cout << "3.Earth" << endl;
+    
     cout << "4.Mars" << endl;
+    
     cout << "5.Jupiter" << endl;
+    
     cout << "6.Saturn" << endl;
+    
     cout << "7.Uranus" << endl;
+    
     cout << "8.Neptune" << endl;
 
 
     cin >> number;
+    
     switch (number)
     {
     case 1:
         cout << "Distance from the Sun to Mercury is 55 million km " << endl;
         break;
+        
     case 2:
         cout << "Distance from the Sun to Venus is 108 million km " << endl;
         break;
+        
     case 3:
         cout << "Distance from the Sun to Earth is 149 million km " << endl;
         break;
+        
     case 4:
         cout << "Distance from the Sun to Mars is 228 million km " << endl;
         break;
+        
     case 5:
         cout << "Distance from the Sun to Jupiter is 780 million km " << endl;
         break;
+        
     case 6:
         cout << "Distance from the Sun to Saturn is 1437 million km " << endl;
         break;
+        
     case 7:
         cout << "Distance from the Sun to Uranus is 2871 million km " << endl;
         break;
+        
     case 8:
         cout << "Distance from the Sun to Neptune is 4530 million km " << endl;
         break;
@@ -139,15 +168,19 @@ void TakeCommand()
         case 1:
             TreeHeight();
             break;
+            
         case 2:
             PlanetDistances();
             break;
+            
         case 3:
             HeightOfABuilding();
             break;
+            
         case 4:
             UnitsConvertor();
             break;
+            
         default:
             break;
         }
