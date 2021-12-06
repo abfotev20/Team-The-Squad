@@ -70,3 +70,31 @@ void PlanetDistances()
 
 
     cin >> number;
+switch (number)
+    {
+    case 1:
+        cout << "Distance from the Sun to Mercury is 55 million km " << endl;
+        break;
+    case 2:
+        cout << "Distance from the Sun to Venus is 108 million km " << endl;
+        break;
+    case 3:
+        cout << "Distance from the Sun to Earth is 149 million km " << endl;
+        break;
+    case 4:
+        cout << "Distance from the Sun to Mars is 228 million km " << endl;
+        break;
+    case 5:
+        cout << "Distance from the Sun to Jupiter is 780 million km " << endl;
+        break;
+    case 6:
+        cout << "Distance from the Sun to Saturn is 1437 million km " << endl;
+        break;
+    case 7:
+        cout << "Distance from the Sun to Uranus is 2871 million km " << endl;
+        break;
+    case 8:
+        cout << "Distance from the Sun to Neptune is 4530 million km " << endl;
+        break;
+    }
+}
