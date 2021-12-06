@@ -123,3 +123,40 @@ void UnitsConvertor()
 
     cout << "Equal to " << weeks << " weeks" << endl;
 }
+
+void TakeCommand()
+{
+    PrintMenu();
+
+    int command = 0;
+
+    cin >> command;
+
+    while (command != 0)
+    {
+        switch (command)
+        {
+        case 1:
+            TreeHeight();
+            break;
+        case 2:
+            PlanetDistances();
+            break;
+        case 3:
+            HeightOfABuilding();
+            break;
+        case 4:
+            UnitsConvertor();
+            break;
+        default:
+            break;
+        }
+        system("PAUSE"); //This will print Press any key to continue//
+
+        system("CLS"); //Clears the program//
+
+        PrintMenu();
+
+        cin >> command;
+    }
+}
