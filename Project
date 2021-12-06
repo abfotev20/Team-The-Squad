@@ -3,3 +3,11 @@
 #include <string>
 
 using namespace std;
+
+void PrintMenu()
+{
+    cout << "1.Tree height" << endl;
+    cout << "2.Planet Distances" << endl;
+    cout << "3.Height of a building " << endl;
+    cout << "4.Units converter" << endl;
+}
