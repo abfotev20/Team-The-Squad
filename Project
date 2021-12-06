@@ -30,3 +30,26 @@ void TreeHeight()
 
     cout << "The tree height is: " << treeHeight << endl;
 }
+
+void HeightOfABuilding()
+{
+    double distance;
+
+    cout << "Enter distance to the building: " << endl;
+
+    cin >> distance;
+
+    double angle;
+
+    cout << "Enter angle: " << endl;
+
+    cin >> angle;
+
+    //The tangent determines the ratio between the opposite leg and the adjacent leg to an angle//
+
+    double tangent = tan(angle * 3.14159265 / 180.0);
+
+    double height = tangent * distance;
+
+    cout << "Building height: " << height << endl;
+}
