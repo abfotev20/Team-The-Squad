@@ -160,3 +160,8 @@ void TakeCommand()
         cin >> command;
     }
 }
+
+int main()
+{
+    TakeCommand();
+}
