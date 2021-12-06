@@ -11,3 +11,13 @@ void PrintMenu()
     cout << "3.Height of a building " << endl;
     cout << "4.Units converter" << endl;
 }
+
+void TreeHeight()
+{
+    cout << "Your Height: " << endl;
+    double yourHeight;
+    cin >> yourHeight;
+
+    cout << "Your Shadow Length: " << endl;
+    double yourShadow;
+    cin >> yourShadow;
